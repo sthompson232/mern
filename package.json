@@ -1,0 +1,21 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/sthompson232/mern.git",
+  "author": "Sam Thompson <samthompson292@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
